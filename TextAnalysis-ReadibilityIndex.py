@@ -1,4 +1,4 @@
-#Some studies have analysed the relation between financial performance disclosed and the textual complexity in the annual report. 
+#Some studies have analysed the relation between financial performance disclosed and the textual complexity in the annual report of a company 
 #As a frist step, this program calculates the Flesch Readibility Index of the Chairman's letter in the annual report
 #This program deploys web scraping and natural language toolkit
 
