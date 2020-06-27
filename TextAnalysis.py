@@ -1,34 +1,7 @@
 import string
-#read PDF & Extract text
-import PyPDF2
-import re
-# pdfFileObj = open('Tech Mahindra.pdf', 'rb')
-# pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
-# PageNos=pdfReader.numPages
-# print(PageNos)
-#
-# String='Management Discussion and Analysis'
-# String1='Overview'
-# for i in range(0,PageNos):
-#     PageObj = pdfReader.getPage(i)
-#     #print("this is page " + str(i))
-#     Text = PageObj.extractText()
-#     # print(Text)
-#     ResSearch = re.search(String, Text)
-#     ResSearch1 = re.search(String1, Text)
-#     if ResSearch is not None and ResSearch1 is not None:
-#         print(str(i+1))
 
-# for i in range(74,88):
-#     PageObj = pdfReader.getPage(i)
-#     text = PageObj.extractText()
-    # text3=''
-    # text=''
-    # text=text3+text
-    # pageObj = pdfReader.getPage(PageNos)
-    # text3 = pageObj.extractText()
-    # text=text3+text
-    # print(text)
+import re
+
 import requests
 
 url = 'https://www.moneycontrol.com/annual-report/hindustanunilever/chairmans-speech/HU#HU'
